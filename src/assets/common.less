@@ -1,0 +1,124 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	font-family: Tahoma, 'Microsoft Yahei', 'Simsun';
+	word-break: break-all;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+#nprogress .bar {
+  background: yellow !important; //自定义颜色
+}
+ul,
+ul li,
+li {
+	list-style: none;
+}
+.hide{
+	display: none !important;
+}
+.el-tree-node__content{
+	padding: 4px 0;
+}
+#app {
+	height: 100%;
+	width: 100%;
+}
+
+.el-container {
+	overflow: hidden;
+	height: 100%;
+}
+.iconFirstWord ,.Topcarousel{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 2px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.custom-tree-node .Topcarousel{
+	vertical-align: middle;
+}
+.help-info {
+	margin: 0;
+	font-size: 12px;
+	color: #A2A2A2;
+}
+
+.help-info:hover {
+	color: #000000;
+}
+
+/* 顶部css */
+.navbar.bs-top-container {
+	line-height: 64px;
+	display: flex;
+	background: #3D72F9;
+	border-radius: 0;
+	margin: 0;
+	height: 64px;
+	border: 0;
+	.resNav-left {
+		font-size: 22px;
+		color: #FFFFFF;
+		flex: 1 0 auto;
+	}
+
+	.resNav-center {
+		-webkit-flex: 1 1 100%;
+		flex: 1 1 100%;
+		-webkit-box-pack: flex-start;
+		-webkit-justify-content: flex-start;
+		justify-content: flex-start;
+		vertical-align: middle;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	.resNav-right {
+		-webkit-flex: 0 0 auto;
+		flex: 0 0 auto;
+		-webkit-box-pack: flex-end;
+		-webkit-justify-content: flex-end;
+		justify-content: flex-end;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			float: right;
+			cursor: pointer;
+			padding-right: 30px;
+			li {
+				float: left;
+
+				.rigth-div {
+					height: 64px;
+					color: #FFFFFF;
+					font-size: 18px;
+					padding: 0 15px;
+					line-height: 4;
+
+					.el-badge {
+						vertical-align: unset;
+
+						.el-badge__content.is-fixed {
+							top: 17px;
+						}
+					}
+
+					.dzz {
+						font-size: 24px;
+					}
+				}
+			}
+		}
+	}
+}
