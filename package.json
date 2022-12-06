@@ -29,7 +29,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "qs": "^6.9.4",
+    "qs": "^6.9.7",
     "rowgrid.js": "^1.1.0",
     "vue-infinite-scroll": "^2.0.2",
     "vue-picture": "^1.2.0",
